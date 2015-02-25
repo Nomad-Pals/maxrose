@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
-body {background-color: $background-color; padding-bottom:2em}
+body {background: $background-color url(/maxrose_background.jpg) no-repeat center top; background-size:100% auto; padding-bottom:2em}
 
 .nav, h1, h2, h3, p {
     font-family: Oswald;
@@ -27,7 +27,7 @@ p {font-size: 16px; letter-spacing: 1px;}
 
 .gallery img {padding: 50px 20px;}
 
-.topic-title {background-color:$brand-color;}
+.topic-title {}
 
 .contact-btn {
   font-family: "Oswald";
@@ -48,4 +48,8 @@ p {font-size: 16px; letter-spacing: 1px;}
     .thumbnails, .prev, .next {display: none;}
     .gallery {padding: 60px 0;}
     .gallery img {padding: 30px 0;}
+}
+
+@include media-query($on-laptop) {
+    
 }
