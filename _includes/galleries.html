@@ -4,13 +4,23 @@
   <header class="topic-title">
     <h1 id="{{ gallery[0] }}">{{ gallery[0] }}</h1>
   </header>
-  <div class="topic-body">
+  <div class="topic-gallery">
     {% for work in gallery[1] %}
     <div class="topic-media">
       <img src="{{ work.src }}" alt="">
     </div>
     <div class="topic-caption">
-      <h2>{{ work.title }} | {{ work.medium }} | {{ work.year }}</h2>
+      <h2>
+        {% if work.title and work.title != "" %} 
+        <span class="work-title">{{ work.title }}</span>
+        {% endif %}
+        {% if work.medium and work.medium != "" %} 
+        <span class="work-medium">{{ work.medium }}</span>
+        {% endif %}
+        {% if work.year and work.year != "" %} 
+        <span class="work-year">{{ work.year }}</span>
+        {% endif %}
+      </h2>
     </div>
     {% endfor %}
   </div>

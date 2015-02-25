@@ -19,11 +19,12 @@
 .topic-title {
   margin: 1em 0 2em;
   padding: 1em 0;
+  text-align: center;
   h1 {margin:0; padding:0;}
 
 }
 
-.topic-body {
+.topic-gallery {
   text-align: center;
   img {
     max-width: 100%;
@@ -34,5 +35,15 @@
 .topic-caption {
   margin: 2em;
   text-align: left;
-  h2 {margin:0;}
+  h2 {
+    margin:0;
+    span {
+      &::after {
+        content: " | ";
+      }
+      &:last-child::after {
+        content: "";
+      }
+    }
+  }
 }

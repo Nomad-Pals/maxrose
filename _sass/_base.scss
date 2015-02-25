@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
-body {background-color: $background-color;}
+body {background-color: $background-color; padding-bottom:2em}
 
 .nav, h1, h2, h3, p {
     font-family: Oswald;
@@ -28,6 +28,19 @@ p {font-size: 16px; letter-spacing: 1px;}
 .gallery img {padding: 50px 20px;}
 
 .topic-title {background-color:$brand-color;}
+
+.contact-btn {
+  font-family: "Oswald";
+  font-size: 2em;
+  background-color: $brand-color;
+  border: none;
+  border-radius: 0;
+  &:hover,
+  &:active {
+    background-color: lighten($brand-color, 5%);
+    border: none;
+  }
+}
 
 @media only screen and (max-width: 480px) {
     .nav a, h2 {font-size: 12px;}

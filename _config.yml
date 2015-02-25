@@ -1,5 +1,6 @@
 # Site settings
 title: Max Rose
+author: Max Rose
 email: max@maxrose.com
 description: The art and times of Max Rose
 baseurl: "" # the subpath of your site, e.g. /blog/
