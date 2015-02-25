@@ -1,0 +1,19 @@
+{% for gallery in page.Galleries %}
+
+<section class="row topic-wrapper">
+  <header class="topic-title">
+    <h1 id="{{ gallery[0] }}">{{ gallery[0] }}</h1>
+  </header>
+  <div class="topic-body">
+    {% for work in gallery[1] %}
+    <div class="topic-media">
+      <img src="{{ work.src }}" alt="">
+    </div>
+    <div class="topic-caption">
+      <h2>{{ work.title }} | {{ work.medium }} | {{ work.year }}</h2>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endfor %}
