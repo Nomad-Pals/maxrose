@@ -17,6 +17,22 @@
 }
 
 .topic-title {
+  margin: 1em 0 2em;
   padding: 1em 0;
   h1 {margin:0; padding:0;}
+
+}
+
+.topic-body {
+  text-align: center;
+  img {
+    max-width: 100%;
+    width:auto
+  }
+}
+
+.topic-caption {
+  margin: 2em;
+  text-align: left;
+  h2 {margin:0;}
 }

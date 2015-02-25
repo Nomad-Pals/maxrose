@@ -1,10 +1,14 @@
 # Site settings
 title: Max Rose
 email: max@maxrose.com
-description: > The art and times of Max Rose
+description: The art and times of Max Rose
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maxrose.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 
 # Build settings
 markdown: kramdown
+
+#Gallery settings
+# Gallery:
+#  - 3d: [{src: https://placekitten.com/g/600/300,title: Title,medium: Medium,year: 2009},{src: https://placekitten.com/g/600/300,title: Title,medium: Medium,year: 2009}]
