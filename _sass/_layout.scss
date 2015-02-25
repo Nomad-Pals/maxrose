@@ -1,0 +1,22 @@
+.site-header {
+  .title {
+    margin:4em 1em 1em;
+    text-align: center;
+    img {max-width:auto; width:100%;}
+  }
+}
+
+.nav {
+  text-align: center;
+  margin:1em 0;
+  a {
+    margin: 0 1em;
+    &:first-child { margin-left:0;}
+    &:last-child { margin-right:0;}
+  }
+}
+
+.topic-title {
+  padding: 1em 0;
+  h1 {margin:0; padding:0;}
+}

@@ -1,0 +1,10 @@
+# Site settings
+title: Max Rose
+email: max@maxrose.com
+description: > The art and times of Max Rose
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://maxrose.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+
+# Build settings
+markdown: kramdown
