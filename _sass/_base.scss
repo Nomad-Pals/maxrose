@@ -2,6 +2,10 @@
 
 body {background: $background-color no-repeat center top; background-size:100% auto; padding-bottom:2em}
 
+a,
+a:visited {color: $brand-color;}
+a:hover {color: lighten($brand-color, 5%);}
+
 .nav, h1, h2, h3, p {
     font-family: Oswald;
     font-weight: 300;
