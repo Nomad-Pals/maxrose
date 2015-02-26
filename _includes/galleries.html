@@ -7,7 +7,7 @@
   <div class="topic-gallery">
     {% for work in gallery[1] %}
     <div class="topic-media">
-      <img src="{{ work.src }}" alt="">
+      <img src="{{ site.loading-img }}" data-src="{{ work.src }}" alt="{{ work.title }}">
     </div>
     <div class="topic-caption">
       <h2>

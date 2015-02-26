@@ -10,6 +10,5 @@ url: "http://maxrose.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-#Gallery settings
-# Gallery:
-#  - 3d: [{src: https://placekitten.com/g/600/300,title: Title,medium: Medium,year: 2009},{src: https://placekitten.com/g/600/300,title: Title,medium: Medium,year: 2009}]
+#loading image for unveil.js
+loading-img: loading.jpg
